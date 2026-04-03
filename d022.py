@@ -1,0 +1,7 @@
+nome = input('Digite seu nome completo: ').strip()
+print('Analisando seu nome...')
+print(nome.lower())
+print(nome.upper())
+total_letras = len(nome.replace(' ', ''))
+print(total_letras)
+print(len(nome.split()[0]))
